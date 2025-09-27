@@ -1,149 +1,109 @@
-📊 Emerging IT Skills for Career Growth – Data Analysis
-🔎 Project Overview
+# 📊 Emerging IT Skills for Career Growth – Data Analysis
 
-This project analyzes survey data collected from 103 IT students and recent graduates to understand:
+## Project Overview
 
-What IT skills students are currently learning
+Analyze survey data from 103 IT students and graduates to discover:
+- What IT skills are currently being learned
+- Which technologies are expected to dominate in the next 5 years
+- How skills relate to job roles, salary expectations, and confidence
 
-Which technologies they believe will dominate the next 5 years
+**Goal:** Identify current/future skill gaps and provide data-driven insights for IT career readiness.
 
-How skills align with job roles, salaries, and confidence levels
+---
 
-The goal is to identify current vs. future skill gaps and provide data-driven insights for career readiness in the IT industry.
+## End-to-End Data Analysis Workflow
 
-👉 This project demonstrates my end-to-end data analysis skills:
+- Data cleaning & preprocessing
+- Exploratory data analysis (EDA)
+- Building visualizations
+- Extracting actionable insights
 
-Data cleaning & preprocessing
+---
 
-Exploratory data analysis (EDA)
+## Dataset
 
-Building visualizations
+- **Source:** Google Forms survey (college IT students)
+- **Sample Size:** 103 responses
+- **Format:** Categorical & numerical
+- **Key Columns:** Current skills, future technologies, job role, salary, learning hours, confidence
 
-Extracting actionable insights
+---
 
-📂 Dataset
+## Tools & Libraries
 
-Source: Primary data collected via Google Forms (college IT students).
+- **Python:** Core analysis
+- **Pandas, NumPy:** Data cleaning/wrangling
+- **Matplotlib, Seaborn:** Visualization
+- **Jupyter Notebook:** Interactive workflow
 
-Sample Size: 103 responses.
+---
 
-Format: Categorical + numerical survey responses.
+## Data Preparation
 
-Key Columns:
+- Removed duplicates & irrelevant columns
+- Standardized categories (e.g., "web dev" → "Web Development")
+- Converted salary ranges to numeric bins
+- Expanded multi-skill answers for accurate analysis
 
-Current skills being learned
+---
 
-Future dominating technologies (student perception)
+## Key Analyses & Insights
 
-Expected job role & salary
+1. **Current vs. Future Skills**  
+   - Current: Python, Java, Web Development, AI/ML  
+   - Future: AI/ML, Data Science, Cloud Computing  
+   - _Insight:_ Students are aligned with AI/ML; Cloud, Cybersecurity, Robotics are underrepresented  
+   - _Visualization:_ Grouped Bar Chart
 
-Hours spent on learning
+2. **Skills vs. Job Roles**  
+   - AI/ML Engineer is top aspiration  
+   - _Insight:_ Strong skill-role alignment  
+   - _Visualization:_ Bar Chart
 
-Confidence in securing a job
+3. **Salary Expectations vs. Skills**  
+   - Higher salaries linked to advanced tech skills  
+   - _Visualization:_ Grouped Bar Chart
 
-🛠️ Tools & Libraries
+4. **Learning Hours**  
+   - Most spend 3–5 hours/week  
+   - _Insight:_ Consistency is high, intensity is low  
+   - _Visualization:_ Pie Chart
 
-Python → Core analysis
+5. **Work Location Preference**  
+   - 52% India, 33% abroad, 18% remote  
+   - _Insight:_ Strong local and global aspirations  
+   - _Visualization:_ Pie Chart
 
-Pandas, NumPy → Data cleaning & wrangling
+6. **Confidence in Job Readiness**  
+   - Most self-rate 3–4/5  
+   - _Insight:_ Moderate confidence, need for upskilling guidance  
+   - _Visualization:_ Bar Chart
 
-Matplotlib, Seaborn → Visualization
+---
 
-Jupyter Notebook → Interactive workflow
+## Conclusion
 
-🧹 Data Cleaning & Preparation
+- AI/ML & Data Science are top priorities
+- Cloud, Cybersecurity, Robotics = skills gap & opportunity
+- Advanced skills → higher salaries, more opportunities
 
-Removed duplicates & irrelevant columns (Timestamp, Name).
+---
 
-Standardized categorical values (e.g., “web dev” → “Web Development”).
+## How to Run
 
-Converted salary ranges into numeric bins for comparison.
+1. **Clone this repo**
+2. **Install requirements:**  
+   ```
+   pip install pandas matplotlib seaborn
+   ```
+3. **Open Jupyter Notebook:**  
+   ```
+   jupyter notebook analysis.ipynb
+   ```
+4. **Run all cells to reproduce analysis & graphs**
 
-Expanded multi-skill answers into separate rows for accurate analysis.
+---
 
-📊 Key Analyses & Insights
-1️⃣ Current vs. Future Skills Gap
+## Contact
 
-Current focus: Python, Java, Web Development, AI/ML.
-
-Future expectation: AI/ML dominates, followed by Data Science & Cloud Computing.
-➡️ Insight: Students are aligned with AI/ML, but Cloud, Cybersecurity, and Robotics remain underrepresented.
-
-📌 Visualization: Grouped Bar Chart (Current vs. Future Skills)
-
-2️⃣ Skills vs. Job Roles
-
-AI/ML Engineers (32%) dominate job aspirations.
-
-Other roles: Software Developer, Data Scientist, Cybersecurity Engineer.
-➡️ Insight: Strong alignment between skills being learned and job roles of interest.
-
-📌 Visualization: Bar Chart (Job Role Preferences)
-
-3️⃣ Salary Expectations vs. Skills
-
-Students expecting 8–12 LPA & above focus on AI/ML, Data Science, Cloud.
-
-Students expecting 3–5 LPA mostly focus on Web Development, Java, CSS.
-➡️ Insight: Higher salary expectations correlate with advanced technical skills.
-
-📌 Visualization: Grouped Bar Chart (Skills vs. Salary)
-
-4️⃣ Learning Hours
-
-Majority spend 3–5 hours/week learning IT skills outside college.
-➡️ Insight: Consistency is there, but intensity is low compared to industry demand.
-
-📌 Visualization: Pie Chart (Weekly Learning Hours)
-
-5️⃣ Work Location Preference
-
-52% prefer India, 33% abroad, 18% remote.
-➡️ Insight: Most students look for opportunities in India, but global aspirations remain strong.
-
-📌 Visualization: Pie Chart (Work Preference)
-
-6️⃣ Confidence in Job Readiness
-
-Most students rated 3–4 on a 5-point scale.
-➡️ Insight: Moderate confidence levels suggest need for early upskilling guidance.
-
-📌 Visualization: Bar Chart (Confidence Levels)
-
-📝 Conclusion
-
-AI/ML and Data Science are clear priorities for students and expected to remain dominant.
-
-Cloud, Cybersecurity, and Robotics show a skills gap → opportunities for curriculum focus.
-
-Students aligning with advanced domains will be better positioned for higher salaries & job opportunities.
-
-⚡ Impact
-
-This project demonstrates my ability to:
-
-Collect & clean raw data
-
-Perform exploratory analysis
-
-Build clear and interpretable visualizations
-
-Translate data into actionable insights
-
-It showcases practical data analyst skills: turning raw survey responses into a professional analysis report.
-
-▶️ How to Run
-
-Clone this repository
-
-Install requirements:
-
-pip install pandas matplotlib seaborn
-
-
-Open the Jupyter Notebook:
-
-jupyter notebook analysis.ipynb
-
-
-Run all cells to reproduce graphs & insights.
+For questions/collaboration: [karunrajkumar16](https://github.com/karunrajkumar16)
